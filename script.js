@@ -56,6 +56,7 @@ blocks.forEach((block) => {
 // RESET GAME
 
 const resetGame = () => {
-  location.reload();
+  // location.reload();
+  history.go(0);
   randomize();
 };
